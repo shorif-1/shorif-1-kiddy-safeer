@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ff8a00">
+  <meta name="description" content="Kiddy Safeerul Qur'an - 150 Qur'anic Arabic Words interactive learning and quiz game">
+  <title>Kiddy Safeerul Qur'an | 150 Words Quiz</title>
+  <link rel="icon" href="assets/safeer-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div><div class="bg-orb orb-two"></div><div class="bg-orb orb-three"></div>
+  <header class="site-header">
+    <button class="brand" data-route="home" aria-label="Go to Home">
+      <img src="assets/safeer-logo.png" alt="Safeer logo" class="brand-logo">
+      <span class="brand-copy"><strong>Kiddy Safeerul Quran</strong></span>
+    </button>
+    <nav class="top-nav" aria-label="Main navigation">
+      <button data-route="home" class="nav-btn active">🏠 Home</button>
+      <button data-route="learn" class="nav-btn">📖 Learn</button>
+      <button data-route="quiz" class="nav-btn">🎮 Quiz</button>
+      <button data-route="words" class="nav-btn">🔎 Word Bank</button>
+      <button data-route="progress" class="nav-btn">🏆 Progress</button>
+    </nav>
+  </header>
+
+  <main id="app" class="app-shell" tabindex="-1"></main>
+
+  <footer>
+    <div><strong>Kiddy Safeerul Qur'an</strong> · 150 Qur'anic Words · 13 Topics</div>
+    <div>Compiled &amp; Designed by <strong>Dr. Abul Kalam Azad</strong> &amp; <strong>Eng. Mishrat Azad</strong></div>
+    <div class="developer-credit">Website Concept &amp; Development by <strong>FM Shoriful Islam</strong></div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

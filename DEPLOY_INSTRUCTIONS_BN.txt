@@ -1,0 +1,11 @@
+Kiddy Safeerul Quran — Public Website Deployment
+
+সবচেয়ে সহজ পদ্ধতি (Netlify Drop):
+1. এই ZIP ফাইলটি Extract করুন।
+2. Extract করা Kiddy_Safeer_Public_Website ফোল্ডারটি খুলুন।
+3. Netlify-তে Sign up/Log in করুন।
+4. Netlify Drop বা Projects page-এর drag-and-drop অংশে সম্পূর্ণ ফোল্ডারটি drag করুন।
+5. Upload শেষ হলে একটি public .netlify.app link পাওয়া যাবে।
+6. সেই link যে কাউকে পাঠালে website live দেখতে পারবে।
+
+গুরুত্বপূর্ণ: index.html এই ফোল্ডারের root-এ আছে।
